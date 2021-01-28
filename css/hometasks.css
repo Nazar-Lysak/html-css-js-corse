@@ -1,0 +1,158 @@
+:root {
+    scroll-behavior: smooth;
+    font-family: 'Fira Sans', sans-serif 
+}
+
+
+.start-img {
+    max-width: 100%;
+      
+}
+
+html, body {
+    max-width: 1180px;
+    margin: auto;
+    background-color: rgb(218, 214, 214);
+    min-width: 360px;
+    
+}    
+
+.container-main-page {
+    font-weight: 500;
+    font-size: 30px;
+    display: grid;
+    height: 40px;
+    grid-template-columns: 1fr 1fr;
+    padding: 6px 0 8px 0;
+    grid-gap: 20px;
+}
+
+.resurses-second-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+header .main-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+main .container-sites {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.roik {
+    max-width: 100%;
+    height: 265px;  
+    
+}
+
+
+
+.cyrilit {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.savka {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.andriyandriy1979 {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.andrii-stasyuk {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.gudkovv {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.mostipan777 {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.lvsiaska {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.maks4546 {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.maximyma {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.nazaryurinets {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.nazar-lysak {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.rachek-o {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.svitlanayaroslavicka {
+    max-width: 100%;
+    height: 265px;  
+}
+
+.mnannasan {
+    max-width: 100%;
+    height: 265px;  
+}
+
+
+.site {
+    padding: 5px;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+}
+
+.footer-end {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background-color: rgb(231, 226, 226);
+    margin: 17px 0 100px 0;
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    height: 200px;
+}
+
+

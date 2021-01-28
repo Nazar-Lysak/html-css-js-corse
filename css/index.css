@@ -1,0 +1,184 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap'); */
+
+:root {
+    scroll-behavior: smooth;
+    font-family: 'Fira Sans', sans-serif 
+}
+
+
+.start-img {
+    max-width: 100%;
+      
+}
+
+.header-img {
+    width: 1180px;
+    
+}
+
+html, body {
+    max-width: 1180px;
+    margin: auto;
+    background-color: whitesmoke;
+    min-width: 360px;
+    background-color: rgb(218, 214, 214);
+   
+}
+
+.intro {
+    text-decoration: none;
+    color: black;
+    grid-column: 2 / 3;
+    font-style: italic;
+    font-weight: 500;
+    text-shadow: 3px 5px 6px rgb(144, 148, 145);
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    height: 40px;
+    text-align: center;
+    
+    
+}
+
+.resurses {
+    font-weight: 500;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 6px 0 5px 0;
+    height: 43px;
+    grid-gap: 20px;
+          
+    
+}
+
+.link-sites {
+    text-decoration: none;
+    color: black;
+    grid-column: 1 / 2;
+    font-style: italic;
+    font-weight: 500;
+    text-shadow: 3px 5px 6px rgb(144, 148, 145);
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    max-height: 40px;
+    text-align: center;
+    
+}
+
+.link-html {
+    text-decoration: none;
+    color: black;
+    grid-column: 2 / 3;
+    font-style: italic;
+    font-weight: 500;
+    text-shadow: 3px 5px 6px rgb(144, 148, 145);
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    max-height: 40px;
+    text-align: center;
+    
+}
+
+.link-resurses {
+    text-decoration: none;
+    color: black;
+    grid-column: 3 / 4;
+    font-style: italic;
+    font-weight: 500;
+    text-shadow: 3px 5px 6px rgb(144, 148, 145);
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    max-height: 40px;
+    text-align: center;
+}
+
+.lesson {
+    background-color: rgb(231, 226, 226);
+    padding: 15px;
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+      
+        
+}
+
+.lessons-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+    
+
+}
+
+.main-lesson {
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 4px;
+    text-shadow: 3px 5px 6px rgb(144, 148, 145);
+
+
+}
+
+.lesson-hometasks {
+    font-style: italic;
+}
+
+h3 ,h4  {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.footer-end {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background-color: rgb(231, 226, 226);
+    margin: 17px 0 100px 0;
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    height: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+    .lessons-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .resurses {
+        font-weight: 500;
+        font-size: 30px;
+        display: grid;
+        height: 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 6px 0 17px 0;
+        grid-gap: 20px;
+            
+    }
+                
+    .link-resurses {
+        text-decoration: none;
+        color: black;
+        font-style: italic;
+        font-weight: 500;
+        text-align: center;
+        grid-row: 1 / 2;  
+                 
+    }
+
+    .link-html {
+            
+        text-decoration: none;
+        color: black;
+        font-style: italic;
+        font-weight: 500;
+        text-align: center;
+        grid-row: 2 / 3;
+              
+    }        
+
+}   
+

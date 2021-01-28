@@ -1,0 +1,153 @@
+:root {
+    scroll-behavior: smooth;
+    font-family: 'Fira Sans', sans-serif 
+}
+
+
+.start-img {
+    max-width: 100%;
+    
+      
+}
+
+.header-img {
+    width: 1180px;
+    
+}
+
+html, body {
+    max-width: 1180px;
+    margin: auto;
+    background-color: whitesmoke;
+    min-width: 360px;
+    background-color: rgb(218, 214, 214);
+}
+
+.container-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr;
+    grid-gap: 20px;
+    
+    
+}
+
+.baby {
+    max-width: 250px;
+    
+}
+
+.banana {
+    max-width: 250px;
+}
+
+.girl {
+    max-width: 250px;
+}
+
+.viking {
+    max-width: 250px;
+}
+
+.lesson-img {
+    max-width: 100%;
+    display: grid;
+    padding: 5px;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    
+}
+
+.resurses-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    margin: 30px 0 30px 0;
+    grid-gap: 20px ;
+    
+}
+
+.container-main-page {
+    font-weight: 500;   
+    font-size: 25px;
+    display: grid;
+    height: 40px;
+    grid-template-columns: 1fr 1fr;
+    padding: 6px 0 8px 0;
+    grid-gap: 20px;
+}
+
+.resurses-second-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+
+header .main-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.link-resurs {
+    padding: 5px;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    text-align: center;
+    
+}
+
+.text-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+.video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    grid-template-rows: 1fr;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    grid-gap: 20px;
+}
+
+.video-link {
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    text-align: center;
+    padding: 0 0 30px 0;
+    
+    
+} 
+
+.footer-end {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
+    height: 200px;
+    margin: 25px 0 25px 0;
+    padding: 15px;
+    text-align: center;
+}
