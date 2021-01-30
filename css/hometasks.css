@@ -153,6 +153,14 @@ main .container-sites {
     margin: 17px 0 100px 0;
     box-shadow: 2px 2px 5px 5px rgb(134, 133, 132);
     height: 200px;
+    text-align: center;
 }
 
+.text-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-style: italic;
+    
+}
 
