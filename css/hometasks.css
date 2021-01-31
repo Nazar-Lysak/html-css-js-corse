@@ -21,7 +21,7 @@ html, body {
     font-weight: 500;
     font-size: 30px;
     display: grid;
-    height: 40px;
+    height: auto;
     grid-template-columns: 1fr 1fr;
     padding: 6px 0 8px 0;
     grid-gap: 20px;
@@ -164,3 +164,19 @@ main .container-sites {
     
 }
 
+@media screen and (max-width: 650px) {
+    .container-main-page {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    main .container-sites {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-end {
+        height: auto;
+    }
+}

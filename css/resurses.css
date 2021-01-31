@@ -151,3 +151,24 @@ header .main-page {
     padding: 15px;
     text-align: center;
 }
+
+@media screen and (max-width: 650px) {
+    .container-main-page {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr;
+    grid-gap: 20px;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
